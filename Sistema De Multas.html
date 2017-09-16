@@ -1,0 +1,28 @@
+<html> 
+	<head> 
+	<title> Sistemas de Multas </title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+	</head>
+ 	<body> <h1> Cadastro De Infrações </h1> 
+ 		<form action="Script_do_Formulario.php" method="post"> <!-- DADOS DO VEICULO--> <fieldset> 
+		<legend>Dados Do Veiculo</legend> 
+ 	    <table cellspacing="12"> <tr> <td> 
+ 		<label for="nome">Placa: </label></td><td align="left"><input type="text" name="Placa"> </td> <td> 
+ 		<label for="Renavam">Renavam: </label> </td> <td align="left"> <input type="text" name="Renavam"> 
+ 		<label for="Modelo"> Modelo: </label> </td> <td align="left"> <input type="text" name="Modelo" size="13" maxlength="13"> 
+ 		<label for="Marca">Marca: </label> </td> <td align="left"><input type="text" name="Marca"> 
+ 		<label for="Categoria">Categoria: </label> </td> <td align="left"><input type="text" name="Categoria"></td> </tr> 
+		</table> </fieldset> <br /> <!-- Dados Do Propietario --> <fieldset> <legend>Dados Do Propietario</legend> <table cellspacing="15"> <tr> <td> 
+ 		<label for="Nome">Nome:</label> </td> <td align="left"> <input type="text" name="Nome"> </td> <td> 
+ 		<label for="CPF/CNPJ">CPF/CNPJ:</label> </td> <td align="left"> <input type="text" name="CPF/CNPJ" size="20"> 
+		<label for="Data De Compra">Data De Compra:</label> </td> <td align="left"> <input type="text" name="Data De Compra"> </td> </tr> <tr> <td> 
+		</table> </fieldset> <br /> <!-- Infrações --> <fieldset> <legend>Infrações</legend> <table cellspacing="10"> <tr> <td> 
+		<table border="5"> <tr> <td>..Codigo.. </td><td>............Descrição............ </td> 
+			<td>..Pontos..</td><td>.....Valor......</td><td>.....Data.....</td><td>...Hora...</td> </tr><td>33 </td><td>Estacionar em local proibido</td><td>5</td><td>R$ 85,90 </td><td>01/06/2017</td><td>12:05 </td> </tr><td>33 </td><td>Estacionar em local proibido </td><td>5</td><td>R$ 85,90 </td><td>01/06/2017 </td><td>13:05 </td> </tr><td>Digigir acima do limite</td><td>7</td><td>R$ 930,55</td><td>12/06/2017</td><td>09:05</td><td></td></td> </table>
+		<input type="button" name="botao-salvar" value="salvar">
+		<input type="button" name="botao-Imprimir" value="Imprimir">
+		<input type="button" name="botao-Cancelar" value="Cancelar">
+		</form> 
+	</body> 
+</html>
